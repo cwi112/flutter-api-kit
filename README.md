@@ -4,7 +4,7 @@
 
 API 호출마다 반복되는 `try/catch`, HTTP 상태 코드 확인, 오류 메시지 변환을 `BaseRepository.safeCall` 한 곳에 모았습니다. Repository는 "무엇을 요청하고 무엇으로 바꿀지"만 작성하고, 결과는 `Either<Failure, T>`로 받아 실패 종류별로 처리합니다.
 
-GetX 화면 구조(BaseView · BaseController)가 필요하면 이 패키지를 포함한 [getx_starter_kit](https://github.com/jjwwii/getx-starter-kit)을 쓰면 됩니다.
+GetX 화면 구조(BaseView · BaseController)가 필요하면 이 패키지를 포함한 [getx_starter_kit](https://github.com/cwi112/getx-starter-kit)을 쓰면 됩니다.
 
 ![Flutter](https://img.shields.io/badge/Flutter-3.29%2B-02569B?logo=flutter)
 ![Dart](https://img.shields.io/badge/Dart-3.7%2B-0175C2?logo=dart)
@@ -48,7 +48,7 @@ lib/
 dependencies:
   flutter_api_kit:
     git:
-      url: https://github.com/jjwwii/flutter-api-kit.git
+      url: https://github.com/cwi112/flutter-api-kit.git
       ref: main
 ```
 

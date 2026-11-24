@@ -1,7 +1,7 @@
 name: flutter_api_kit
 description: "상태관리와 무관하게 쓰는 Flutter 네트워크·유틸 계층. ApiClient(Dio), BaseRepository.safeCall, Failure, ParsingUtil, LoggerUtil 을 제공합니다."
 version: 1.0.0
-homepage: https://github.com/jjwwii/flutter-api-kit
+homepage: https://github.com/cwi112/flutter-api-kit
 publish_to: 'none'
 
 environment:
