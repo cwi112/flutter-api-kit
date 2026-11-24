@@ -1,0 +1,30 @@
+name: flutter_api_kit
+description: "상태관리와 무관하게 쓰는 Flutter 네트워크·유틸 계층. ApiClient(Dio), BaseRepository.safeCall, Failure, ParsingUtil, LoggerUtil 을 제공합니다."
+version: 1.0.0
+homepage: https://github.com/jjwwii/flutter-api-kit
+publish_to: 'none'
+
+environment:
+  sdk: ^3.7.0
+  flutter: ">=3.29.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # 통신
+  dio: ^5.8.0
+  pretty_dio_logger: ^1.4.0
+
+  # Either (성공/실패 결과 타입)
+  dartz: ^0.10.1
+
+  # 로그
+  logger: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
